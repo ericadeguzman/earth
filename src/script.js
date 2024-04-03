@@ -95,7 +95,7 @@ scene.add(atmosphere)
 /**
  * Sun
  */
-const sunSpherical = new THREE.Spherical(1, Math.PI * 0.5, 0.5);
+const sunSpherical = new THREE.Spherical(.95, Math.PI * 0.5, 0.5);
 const sunDirection = new THREE.Vector3();
 
 // Debug - this is a small sphere that will follow the sun
